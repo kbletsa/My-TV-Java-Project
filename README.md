@@ -73,34 +73,3 @@ Default Credentials (from Sample Data)
    Admin: Username: admin1, Password: password1
    Subscriber: Username: user1, Password: password1
 
-Project Structure
-
-src/
-├── api/
-│   ├── Main.java               # Entry point
-│   ├── model/                  # Data Models
-│   │   ├── Admin.java
-│   │   ├── Category.java
-│   │   ├── Episode.java
-│   │   ├── MediaItem.java
-│   │   ├── Movie.java
-│   │   ├── Review.java
-│   │   ├── Season.java
-│   │   ├── Series.java
-│   │   ├── Subscriber.java
-│   │   └── User.java
-│   └── service/                # Business Logic & File I/O
-│       ├── MediaItemFileHandler.java
-│       ├── SearchService.java
-│       ├── UserFileHandler.java
-│       ├── UserService.java
-│       └── Utils.java
-└── gui/                        # Graphical User Interface
-    ├── AdminMainFrame.java
-    ├── Login.java
-    ├── NewMediaItem.java
-    ├── Register.java
-    ├── ReviewFrame.java
-    ├── SearchPanel.java
-    ├── ShowItemFrame.java
-    └── SubscriberMainFrame.java
